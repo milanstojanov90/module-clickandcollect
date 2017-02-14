@@ -1,0 +1,19 @@
+<!-- 
+ * MageClass_ClickAndCollect Magento Extension
+ *
+ * @category    MageClass
+ * @package     MageClass_ClickAndCollect
+ * @author      Milan Stojanov <milan.stojanov@outlook.com>
+ * @website    http://www.mageclass.com
+ -->
+ 
+<div data-bind="visible: isClickAndCollect()">
+	<p><a data-bind="click: showMap, visible: isSelectStoreVisible()" href="#">Select store by map</a></p>
+	<label class="label">Pick Up Date</label>
+	<div class="control">
+	    <input class="input-text" type="text" data-bind="datetimepicker: true"  name="pickup_date" id="pickup-date" readonly="true"/>
+	</div>
+	<input type="hidden" id="pickup-store" name="pickup_store" value="" />
+	<p id="selected-store-msg">You have selected to pick up your order in <span></span> store.</p>
+	<div id="map-canvas"></div>
+</div>

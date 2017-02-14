@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * @category   MageClass
+ * @package    MageClass_ClickAndCollect
+ * @author     milan.stojanov@outlook.com
+ * @website    http://www.mageclass.com
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="core_layout_render_element">
+        <observer name="add_pickup_info_to_order_page" instance="MageClass\ClickAndCollect\Observer\Adminhtml\BlockObserver" />
+    </event>
+</config>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category   MageClass
+ * @package    MageClass_ClickAndCollect
+ * @author     milan.stojanov@outlook.com
+ * @website    http://www.mageclass.com
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Api/etc/extension_attributes.xsd">
+    <extension_attributes for="Magento\Checkout\Api\Data\ShippingInformationInterface">
+        <attribute code="pickup_store" type="string"/>
+        <attribute code="pickup_date" type="string"/>
+    </extension_attributes>
+</config>

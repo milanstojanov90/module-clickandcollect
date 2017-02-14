@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category   MageClass
+ * @package    MageClass_ClickAndCollect
+ * @author     milan.stojanov@outlook.com
+ * @website    http://www.mageclass.com
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <mageclass_clickandcollect>
+            <general>
+                <default_latitude>-41</default_latitude>
+                <default_longitude>173</default_longitude>
+                <default_zoom>6</default_zoom>
+            </general>
+        </mageclass_clickandcollect>
+
+        <carriers>
+            <clickandcollect>
+                <active>1</active>
+                <sallowspecific>0</sallowspecific>
+                <price>0</price>
+                <model>MageClass\ClickAndCollect\Model\Carrier\Clickandcollect</model>
+                <name>Fixed</name>
+                <title>Click And Collect</title>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+            </clickandcollect>
+        </carriers>
+
+    </default>
+</config>

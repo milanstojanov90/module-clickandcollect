@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category   MageClass
+ * @package    MageClass_ClickAndCollect
+ * @author     milan.stojanov@outlook.com
+ * @website    http://www.mageclass.com
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+    	<add id="MageClass_ClickAndCollect::stores_section" title="Click And Collect" translate="title" module="MageClass_ClickAndCollect" sortOrder="40" parent="Magento_Backend::content" resource="MageClass_ClickAndCollect::stores_section"/>
+    	<add id="MageClass_ClickAndCollect::manage_stores" title="Manage Stores" module="MageClass_ClickAndCollect" sortOrder="50" parent="MageClass_ClickAndCollect::stores_section" action="clickandcollectstore/index" resource="MageClass_ClickAndCollect::manage_stores"/>
+    </menu>
+</config>

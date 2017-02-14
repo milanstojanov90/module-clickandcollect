@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * @category   MageClass
+ * @package    MageClass_ClickAndCollect
+ * @author     milan.stojanov@outlook.com
+ * @website    http://www.mageclass.com
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="sales_model_service_quote_submit_before">
+        <observer name="copy_pickup_info_from_quote_to_order" instance="MageClass\ClickAndCollect\Observer\DataAssignObserver"/>
+    </event>
+</config>
