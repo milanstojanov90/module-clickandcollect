@@ -13,4 +13,4 @@ As for customers, it allows them to avoid shipping costs or waiting for shipping
 * Creates Click & Collect shipping method (with all necessary configuration)
 * Integrates with Google Maps.
 * Allows adding as many click and collect stores as you need with store description, name, address, working hours, etc.
-* Allow customers to select pick up store by clicking on the map
+* Allow customers to select pick up store by clicking on the map (directly from the checkout)
